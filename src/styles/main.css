@@ -1,1 +1,55 @@
-/*# sourceMappingURL=main.css.map */
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.search {
+  position: relative;
+  width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px 100px 10px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+}
+
+.search-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: radial-gradient(ellipse farthest-corner at 5% 5%, #b90000, #2b0000);
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 50px;
+  z-index: 2;
+  width: 100px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
