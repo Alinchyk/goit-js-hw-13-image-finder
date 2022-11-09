@@ -20,6 +20,7 @@
   "dependencies": {
     "gh-pages-webpack-plugin": "^1.0.2",
     "html-webpack-plugin": "^5.5.0",
+    "material-design-icons": "^3.0.1",
     "normalize.css": "^8.0.1"
   },
   "version": "1.0.0",
