@@ -54,16 +54,46 @@ body {
   cursor: pointer;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.material-icons {
+  margin-right: 5px;
+}
+
+.stats-item {
+  display: flex;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo-card {
+  border: 2px solid #333;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  width: 400px;
+  margin-left: 20px;
+  height: 400px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background: radial-gradient(ellipse farthest-corner at 5% 5%, #b90000, #2b0000);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 150px;
+  height: 60px;
 }
 
 .button.is-hidden {
@@ -72,4 +102,12 @@ img {
 
 .button > .spinner.is-hidden {
   display: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
